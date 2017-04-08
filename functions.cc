@@ -589,7 +589,7 @@ unsigned int GetMaws( unsigned char * seq, unsigned char * seq_id, INT * SA, INT
 	}
 
 	/* Print the header */
-	fprintf ( out_fd, ">%s\n", ( char * ) seq_id );
+	//fprintf ( out_fd, ">%s\n", ( char * ) seq_id );
 
         maw = ( char * ) calloc( ( K + 1 ) , sizeof( char ) );
         if( ( maw == NULL) )
